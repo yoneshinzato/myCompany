@@ -49,6 +49,11 @@ a {
     color: #fff;
 }
 
+.bg-primary {
+    background: #b388ff;
+    color: #fff;
+}
+
 .l-heading {
     font-size: 3rem;
     margin-bottom: 0.75rem;
@@ -88,6 +93,9 @@ a {
 .btn-dark {
     background: #6200ea;
     color: #fff;
+}
+
+
 }
 
 .list {
@@ -209,4 +217,28 @@ h1.logo {
     display:block;
     margin: auto;
     width: 60%;
+}
+
+
+/* Contato */
+#contact {
+    display:flex;
+}
+
+#contact .map, #contact .contact-form {
+    flex:1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display:block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width:100%;
+    padding:0.5rem;
 }
