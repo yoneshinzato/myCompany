@@ -57,7 +57,7 @@ a {
 .l-heading {
     font-size: 3rem;
     margin-bottom: 0.75rem;
-    line-height: 1.6rem;
+    line-height: 3.5rem;
 }
 
 .m-heading {
@@ -155,6 +155,7 @@ h1.logo {
     background: #6200ea url('../img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
+    position:relative;
 }
 
 #showcase .showcase-content {
@@ -167,7 +168,7 @@ h1.logo {
     padding: 0 2rem;
     /* overlay */
     position: absolute;
-    top: 60px;
+    top: 0;
     left:0;
     right:0;
     bottom:0;
@@ -241,4 +242,8 @@ h1.logo {
 #contact .contact-form textarea {
     width:100%;
     padding:0.5rem;
+}
+
+.map iframe {
+    height:100vh;
 }

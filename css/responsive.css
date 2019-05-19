@@ -1,0 +1,89 @@
+
+@media screen and (max-width:768px) {
+
+  #what .items {
+    display:block;
+    padding: 1rem;
+  }
+
+  #what .items .item {
+    display: flex;
+    text-align: left;
+  }
+  
+  /* posição dos ícones */
+  
+  #what .items .item i {
+    margin-right: 1rem;
+    align-self:center;
+    margin-bottom:0;
+  }
+}
+
+/* smartphones */
+
+@media(max-width:500px) {
+  #navbar {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  #navbar .logo {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    padding:0.5rem;
+    font-size: 0.85rem;
+  }
+
+
+  #who {display:block;}
+
+  #who img {display:none;}
+
+  #clients .items img {
+    width:80%;
+  }
+
+  #clients .items div:last-child{
+    display:none;
+  }
+
+  #contact {
+    flex-direction:column;
+  }
+
+  #contact .map {
+    height:200px;
+  }
+}
+
+@media(max-height:568px){
+  l-heading {font-size:2rem;}
+  .lead {font-size:1rem;}
+
+}
+
+@media screen and (min-width:1200px){
+  /* alinhar icones a esquerda */
+
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* posição dos ícones */
+
+#what .items .item i {
+  margin-right: 1rem;
+  align-self:center;
+  margin-bottom:0;
+}
+
+#contact .map {
+  flex:2;
+}
+
+}
